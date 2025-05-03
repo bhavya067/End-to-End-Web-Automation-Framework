@@ -31,7 +31,7 @@
     <!-- report name - displayed at top-nav -->
     <reportName>
 		<![CDATA[
-         <img style="width: 200px" src='https://raw.githubusercontent.com/bhavya067/test/refs/heads/main/automation%20logo.PNG'/>
+         <img style="width: 200px" src='https://raw.githubusercontent.com/bhavya067/End-to-End-Web-Automation-Framework/refs/heads/main/Automation-framework/files/Extent%20Report%20Logo.PNG'/>
             
       ]]></reportName>
 
