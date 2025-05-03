@@ -20,6 +20,7 @@ public class Accessories extends DriverTestCase{
 		commonHelper.verifyElementPresent(booksLocators.booksHeaderBtn, "booksHeaderBtn");	
 		commonHelper.click(booksLocators.booksHeaderBtn, "booksHeaderBtn", "Clicking on 'Books' header button");	
 		commonHelper.verifyElementPresent(booksLocators.booksTileInBooksTab, "booksTileInBooksTab");
+		//commonHelper.verifyElementPresent(computersLocators.computersTileInComputersTab, "computersTileInComputersTab");
 		logoutFromPlatform();
 		getLogger().pass("Successfully navigated to 'Accessories' section in 'Computers' and validated the header");
 	}

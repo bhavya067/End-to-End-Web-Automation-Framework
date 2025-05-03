@@ -14,9 +14,9 @@ dist/
 Thumbs.db
 
 
-Reports
-Screenshots
-downloads
-logs
+#Reports
+#Screenshots
+#downloads
+#logs
 target/
-src/main/resources/runtime.properties
+#src/main/resources/runtime.properties
