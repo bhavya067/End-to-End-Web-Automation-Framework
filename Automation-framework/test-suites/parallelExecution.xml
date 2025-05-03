@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" configfailurepolicy="continue" parallel="tests" thread-count="4">
+    <parameter name="machine" value="${machine}" />
+
+    <test name="Books Tests" preserve-order="true">
+        <classes>
+            <class name="testCases.books.Books" />
+        </classes>
+    </test>
+
+    <test name="Computers Tests" preserve-order="true">
+        <classes>
+            <class name="testCases.computers.Accessories" />
+            <class name="testCases.computers.Desktops" />
+            <class name="testCases.computers.Notebooks" />
+        </classes>
+    </test>
+
+    <test name="Digital Downloads Tests" preserve-order="true">
+        <classes>
+            <class name="testCases.digitalDownloads.DigitalDownloads" />
+        </classes>
+    </test>
+
+    <test name="Electronics Tests" preserve-order="true">
+        <classes>
+            <class name="testCases.electronics.CameraPhotos" />
+            <class name="testCases.electronics.CellPhones" />
+        </classes>
+    </test>
+</suite>

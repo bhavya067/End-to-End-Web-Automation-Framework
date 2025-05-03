@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Suite" configfailurepolicy="continue">
+		<parameter name="env" value="${env}" />
+	<parameter name="machine" value="${machine}" />
+	<parameter name="role" value="${role}" />
+  <test name="TestNG Suite">
+    <classes>
+		
+     <class name="testCases.digitalDownloads.DigitaDownloads"/>
+      <class name="testCases.electronics.CameraPhotos"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

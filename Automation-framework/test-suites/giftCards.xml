@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Gift Cards Suite" configfailurepolicy="continue">
+	<parameter name="machine" value="${machine}" />
+  <test name="Gift Cards Tests">
+    <classes>
+      <class name="testCases.giftCards.GiftCards"/>
+    </classes>
+  </test> <!-- Gift Cards Tests -->
+</suite> <!-- Gift Cards Suite -->

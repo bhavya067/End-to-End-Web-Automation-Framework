@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Digital Downloads Suite" configfailurepolicy="continue">
+	<parameter name="machine" value="${machine}" />
+  <test name="Digital Downloads Tests">
+    <classes>
+      <class name="testCases.digitalDownloads.DigitalDownloads"/>
+    </classes>
+  </test> <!-- Digital Downloads Tests -->
+</suite> <!-- Digital Downloads Suite -->

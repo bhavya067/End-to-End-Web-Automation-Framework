@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" configfailurepolicy="continue">
+    <parameter name="env" value="${env}" />
+    <parameter name="machine" value="${machine}" />
+    <parameter name="role" value="${role}" />
+
+    <test name="TestNG Method">
+        <classes>
+            <class name="testCases.books.Books">
+                <methods>
+                    <include name="validateOtherSectionsNavigationFromBooks" />
+                </methods>  
+            </class>       
+        </classes>
+    </test> <!-- testng method -->
+</suite> <!-- testng method -->

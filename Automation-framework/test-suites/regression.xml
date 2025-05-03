@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" configfailurepolicy="continue"> 
+	<parameter name="machine" value="${machine}" />
+  <test name="Regression Tests">
+    <classes>
+		
+	  <class name="testCases.books.Books"/>
+	  <class name="testCases.computers.Accessories"/>
+      <class name="testCases.computers.Desktops"/>
+      <class name="testCases.computers.Notebooks"/>
+      <class name="testCases.digitalDownloads.DigitaDownloads"/>
+      <class name="testCases.electronics.CameraPhotos"/>
+      <class name="testCases.electronics.CellPhones"/>
+      <class name="testCases.giftCards.GiftCards"/>
+     		
+    </classes>
+  </test> <!-- Regression Tests -->
+</suite> <!-- Regression Suite -->

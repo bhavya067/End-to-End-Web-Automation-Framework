@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Electronics Suite" configfailurepolicy="continue">
+	<parameter name="machine" value="${machine}" />
+  <test name="Electronics Tests">
+    <classes>
+      <class name="testCases.electronics.CameraPhotos"/>
+      <class name="testCases.electronics.CellPhones"/>
+    </classes>
+  </test> <!-- Electronics Tests -->
+</suite> <!-- Electronics Suite -->
